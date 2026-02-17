@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{DF3F9193-D29A-839A-017F-81412CE231A6}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SimplePlayerMovement.cs">
+    <Files>
+      <File FileName="Assets/SimplePlayerMovement.cs" Line="15" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Education in Crisis" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="SimplePlayerMovement.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="830faf91-3e13-4bed-b789-5b48ef85fe5e" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
