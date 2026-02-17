@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 18
-  productGUID: b307baa85d5014ffe8fbdfc95db0a25f
+  productGUID: 660e3a9b9bc0d49b3a703ddc6c0aa7a7
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Education in Crisis
+  productName: CAVE2projectTemplate
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -641,10 +641,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: d81e6f9e-02b9-48b4-b8da-8ecc4342ed12
+  cloudProjectId: dce8d8fd-5844-401b-975c-90c83e18a2b1
   framebufferDepthMemorylessMode: 0
-  projectName: Education in Crisis
-  organizationId: sprek2_unity
+  projectName: CAVE2projectTemplate
+  organizationId: 5cadb4d-cd78-4f09-a6bd-e1258d1eb848
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
