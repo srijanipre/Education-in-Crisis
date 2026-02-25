@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 85e0a02c5a281564d96ac701441d28d5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - litMaterial: {fileID: 2100000, guid: 9dd1f6c394cbe6c499f1e1767800dad8, type: 2}
+  - unlitMaterial: {fileID: 2100000, guid: 1f49b4702d92d24498264d14be07f555, type: 2}
+  - buttonCross: {instanceID: 0}
+  - buttonCircle: {instanceID: 0}
+  - buttonUp: {instanceID: 0}
+  - buttonDown: {instanceID: 0}
+  - buttonLeft: {instanceID: 0}
+  - buttonRight: {instanceID: 0}
+  - buttonL1: {instanceID: 0}
+  - buttonL2: {instanceID: 0}
+  - buttonL3: {instanceID: 0}
+  - buttonTriangle: {instanceID: 0}
+  - buttonSquare: {instanceID: 0}
+  - buttonR1: {instanceID: 0}
+  - buttonR2: {instanceID: 0}
+  - buttonR3: {instanceID: 0}
+  - buttonSelect: {instanceID: 0}
+  - buttonStart: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
