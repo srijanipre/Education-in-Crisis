@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: c1804d6f1172dfc41b8b915f23de6475
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - kinect2bodyPrefab: {fileID: 100000, guid: 9017932525ee41047b5c6fc8a6d7e305, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
