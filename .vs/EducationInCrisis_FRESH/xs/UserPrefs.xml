@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{A9EB94A9-3D07-91A3-1595-60D28E66F4CB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/SnapToGarland.cs">
+    <Files>
+      <File FileName="Assets/Scenes/SnapToGarland.cs" Line="20" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EducationInCrisis_FRESH" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="module-omicron" expanded="True" />
+              <Node name="Scenes" expanded="True">
+                <Node name="SnapToGarland.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="97bb7479-3d37-442c-ac9c-7160014eb79c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
