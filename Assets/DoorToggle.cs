@@ -9,10 +9,14 @@ public class DoorToggle : MonoBehaviour
     private Quaternion closedRot;
     private Quaternion openRot;
 
+    private AudioSource audioSource; // NEW
+
     void Start()
     {
         closedRot = transform.localRotation;
         openRot = closedRot * Quaternion.Euler(0, 0, openAngle);
+
+        audioSource = GetComponent<AudioSource>(); // NEW
     }
 
     void Update()
@@ -25,5 +29,11 @@ public class DoorToggle : MonoBehaviour
     public void Toggle()
     {
         open = !open;
+
+        // NEW: play door sound when toggled
+        if (audioSource != null && audioSource.clip != null)
+        {
+            audioSource.PlayOneShot(audioSource.clip);
+        }
     }
 }
