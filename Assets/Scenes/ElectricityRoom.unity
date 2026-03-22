@@ -2588,9 +2588,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 114
   m_CollisionDetection: 0
 --- !u!65 &1592973751
 BoxCollider:
@@ -2617,9 +2617,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 114
   m_CollisionDetection: 0
 --- !u!65 &1592973753
 BoxCollider:
@@ -2648,7 +2648,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 114
   m_CollisionDetection: 0
 --- !u!65 &1592973755
 BoxCollider:
@@ -2661,8 +2661,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.22326504, y: 0.5225014, z: 0.26935622}
-  m_Center: {x: -0.0048536616, y: 0.03758764, z: 0.029495953}
+  m_Size: {x: 0.22326504, y: 1.2626178, z: 0.9679699}
+  m_Center: {x: -0.0048536556, y: -0.028123457, z: -0.0016291935}
 --- !u!114 &1592973756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2670,7 +2670,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592973747}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 914f7dd1a2dc52a41be6d8198f3dffe9, type: 3}
   m_Name: 
@@ -2684,7 +2684,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592973748}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 914f7dd1a2dc52a41be6d8198f3dffe9, type: 3}
   m_Name: 
@@ -2698,7 +2698,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592973749}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 914f7dd1a2dc52a41be6d8198f3dffe9, type: 3}
   m_Name: 
@@ -2720,7 +2720,7 @@ MonoBehaviour:
   wandPointing: 0
   wandTouching: 1
   grabbed: 0
-  grabButton: 12
+  grabButton: 2
   grabStyle: 0
   holdInteraction: 1
   allowWandCollision: 1
@@ -2752,7 +2752,7 @@ MonoBehaviour:
   wandPointing: 0
   wandTouching: 1
   grabbed: 0
-  grabButton: 12
+  grabButton: 2
   grabStyle: 0
   holdInteraction: 1
   allowWandCollision: 1
@@ -2784,7 +2784,7 @@ MonoBehaviour:
   wandPointing: 0
   wandTouching: 1
   grabbed: 0
-  grabButton: 12
+  grabButton: 2
   grabStyle: 0
   holdInteraction: 1
   allowWandCollision: 1
