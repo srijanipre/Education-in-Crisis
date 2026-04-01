@@ -6,10 +6,12 @@ public class DoorClicker : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        bool laptopClick = Input.GetMouseButtonDown(0);
+        bool caveClick = CAVE2.GetButtonDown(CAVE2.Button.ButtonUp);
+
+        if (laptopClick || caveClick)
         {
             Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-
             RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit, distance))
