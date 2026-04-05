@@ -1075,11 +1075,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 149805719}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8d522d165c4c4f06b26aa1753ca54d9, type: 3}
+  m_Script: {fileID: 11500000, guid: b0ae3c20d77214cfea269566a81c7d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: HallwayScene
-  requiredTag: 
+  hallwaySceneName: HallwayScene
+  hallwaySpawnName: Spawn_From3rdRoom
+  requiredTag: Player
 --- !u!1001 &162704885
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1669,7 +1669,6 @@ GameObject:
   - component: {fileID: 181472433}
   - component: {fileID: 181472436}
   - component: {fileID: 181472435}
-  - component: {fileID: 181472434}
   m_Layer: 0
   m_Name: ArrowBody
   m_TagString: Untagged
@@ -1691,19 +1690,6 @@ Transform:
   m_Father: {fileID: 1906674034}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: -85.146}
---- !u!65 &181472434
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181472432}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &181472435
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14302,7 +14288,6 @@ GameObject:
   - component: {fileID: 947167065}
   - component: {fileID: 947167068}
   - component: {fileID: 947167067}
-  - component: {fileID: 947167066}
   m_Layer: 0
   m_Name: ArrowBody
   m_TagString: Untagged
@@ -14324,19 +14309,6 @@ Transform:
   m_Father: {fileID: 178878198}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: -85.146}
---- !u!65 &947167066
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947167064}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &947167067
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17392,7 +17364,6 @@ GameObject:
   - component: {fileID: 1202370332}
   - component: {fileID: 1202370335}
   - component: {fileID: 1202370334}
-  - component: {fileID: 1202370333}
   m_Layer: 0
   m_Name: ArrowHead
   m_TagString: Untagged
@@ -17414,19 +17385,6 @@ Transform:
   m_Father: {fileID: 2021834056}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -44.795002, y: 85.164, z: -83.152}
---- !u!65 &1202370333
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202370331}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1202370334
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17576,7 +17534,6 @@ GameObject:
   - component: {fileID: 1223323123}
   - component: {fileID: 1223323126}
   - component: {fileID: 1223323125}
-  - component: {fileID: 1223323124}
   m_Layer: 0
   m_Name: ArrowBody
   m_TagString: Untagged
@@ -17598,19 +17555,6 @@ Transform:
   m_Father: {fileID: 2021834056}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: -85.146}
---- !u!65 &1223323124
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223323122}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1223323125
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18407,7 +18351,6 @@ GameObject:
   - component: {fileID: 1343782817}
   - component: {fileID: 1343782820}
   - component: {fileID: 1343782819}
-  - component: {fileID: 1343782818}
   m_Layer: 0
   m_Name: ArrowHead
   m_TagString: Untagged
@@ -18429,19 +18372,6 @@ Transform:
   m_Father: {fileID: 178878198}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -44.795002, y: 85.164, z: -83.152}
---- !u!65 &1343782818
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1343782816}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1343782819
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25710,7 +25640,6 @@ GameObject:
   - component: {fileID: 1613185035}
   - component: {fileID: 1613185038}
   - component: {fileID: 1613185037}
-  - component: {fileID: 1613185036}
   m_Layer: 0
   m_Name: ArrowHead
   m_TagString: Untagged
@@ -25732,19 +25661,6 @@ Transform:
   m_Father: {fileID: 1906674034}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -44.795002, y: 85.164, z: -83.152}
---- !u!65 &1613185036
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613185034}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1613185037
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28405,6 +28321,65 @@ Transform:
   - {fileID: 418125743}
   m_Father: {fileID: 0}
   m_RootOrder: 96
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1910118470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1910118473}
+  - component: {fileID: 1910118472}
+  - component: {fileID: 1910118471}
+  m_Layer: 0
+  m_Name: HallwayTrigger_ToTabletRoom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1910118471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910118470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8d522d165c4c4f06b26aa1753ca54d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: TabletRoom
+  requiredTag: Player
+--- !u!65 &1910118472
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910118470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.100604534, y: 2.0665123, z: 1.2414038}
+  m_Center: {x: -2.1227973, y: 1.357627, z: 2.2180734}
+--- !u!4 &1910118473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910118470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.856, y: 0.082, z: 4.662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1915509694
 PrefabInstance:

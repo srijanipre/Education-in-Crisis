@@ -495,11 +495,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 346494290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8d522d165c4c4f06b26aa1753ca54d9, type: 3}
+  m_Script: {fileID: 11500000, guid: b0ae3c20d77214cfea269566a81c7d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: HallwayScene
-  requiredTag: 
+  hallwaySceneName: HallwayScene
+  hallwaySpawnName: Spawn_FromElectricityRoom
+  requiredTag: Player
 --- !u!65 &346494292
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1137,7 +1138,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0.00020271621}
+  m_BoundingSphereOverride: {x: 1e-45, y: 3.59e-43, z: 7.17e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
