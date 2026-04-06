@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3rdRoom.unity
     guid: 2a57d15bb62254462bbeaf1fcac7188f
+  - enabled: 1
+    path: Assets/Scenes/TabletRoom.unity
+    guid: 7056dfec611af410eace4b9cdb2e2cea
   m_configObjects: {}
