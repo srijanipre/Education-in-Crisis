@@ -30,9 +30,9 @@ public class TabletMatchingGame : MonoBehaviour
     void Start()
     {
         if (messageText != null)
-            messageText.text = "";
+            messageText.text = "Pick A, B, or C";
 
-        // UI button clicks
+        // Laptop mouse/UI support
         letterAButton.onClick.AddListener(() => SelectLetter("A"));
         letterBButton.onClick.AddListener(() => SelectLetter("B"));
         letterCButton.onClick.AddListener(() => SelectLetter("C"));
@@ -44,7 +44,9 @@ public class TabletMatchingGame : MonoBehaviour
 
     void Update()
     {
-        // Keyboard fallback for laptop testing
+        // -------------------------
+        // Desktop keyboard fallback
+        // -------------------------
         if (Input.GetKeyDown(KeyCode.A))
             SelectLetter("A");
 
@@ -63,13 +65,23 @@ public class TabletMatchingGame : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3))
             MatchCar();
 
-        // Optional CAVE fallback:
-        // use Button7 as a quick demo shortcut to auto-complete current selected match
-        if (CAVE2.GetButtonDown(CAVE2.Button.Button7))
+        // -------------------------
+        // CAVE2 controls
+        // -------------------------
+        if (CAVE2.GetButtonDown(CAVE2.Button.ButtonUp))
+            SelectLetter("A");
+
+        if (CAVE2.GetButtonDown(CAVE2.Button.ButtonLeft))
+            SelectLetter("B");
+
+        if (CAVE2.GetButtonDown(CAVE2.Button.ButtonRight))
+            SelectLetter("C");
+
+        // Confirm current selected match using either ButtonDown or Button7
+        if (CAVE2.GetButtonDown(CAVE2.Button.ButtonDown) ||
+            CAVE2.GetButtonDown(CAVE2.Button.Button7))
         {
-            if (selectedLetter == "A") MatchApple();
-            else if (selectedLetter == "B") MatchBanana();
-            else if (selectedLetter == "C") MatchCar();
+            ConfirmSelectedLetter();
         }
     }
 
@@ -83,6 +95,23 @@ public class TabletMatchingGame : MonoBehaviour
 
         if (messageText != null)
             messageText.text = "Selected: " + letter;
+    }
+
+    void ConfirmSelectedLetter()
+    {
+        if (selectedLetter == "")
+        {
+            if (messageText != null)
+                messageText.text = "Pick a letter first.";
+            return;
+        }
+
+        if (selectedLetter == "A")
+            MatchApple();
+        else if (selectedLetter == "B")
+            MatchBanana();
+        else if (selectedLetter == "C")
+            MatchCar();
     }
 
     void MatchApple()
