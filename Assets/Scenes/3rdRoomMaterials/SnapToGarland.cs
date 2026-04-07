@@ -52,5 +52,6 @@ public class SnapToGarland : MonoBehaviour
 
             isSnapped = true;
         }
+        Debug.Log("Snapping to: " + closest.name + " at " + closest.position);
     }
 }
